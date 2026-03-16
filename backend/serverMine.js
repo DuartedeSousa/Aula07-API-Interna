@@ -50,7 +50,7 @@ app.use(
 // FUNÇÃO AUXILIAR
 //======================================================
 
-//Função que rcebe um array e retorna um item aleatório dele
+//Função que recebe um array e retorna um item aleatório dele
 function sortear(array){
     //gerar um número aleatório entre 0 e o tamanho do array
     const i = Math.floor(Math.random() * array.lentgh)

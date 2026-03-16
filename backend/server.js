@@ -120,6 +120,6 @@ app.get("/api/cachorros/:raca", (req, res) => {
 //iniciar o servidor express
 app.listen(PORT, () => {
     console.log(`🚀 Servidor rodando em http://localhost:${PORT}`);
-    console.log(`📂 Coloque as fotos manualmente em: data/fotos/`);	
+    console.log(`📂 Coloque as fotos manualmente em: data/fotos/`);
     
 })
